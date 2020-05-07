@@ -6,7 +6,7 @@ Git基本操作命令：
 
 ```
 git init
-git add *
+git add .
 git commit -m "created:Project Init"
 git remote add origin git@github.com:Healingl/Github-Basic-Operation.git
 git push -u origin master
@@ -24,10 +24,21 @@ git remote -v
 
 ```
 git pull
-git add *
+git add .
 git commit -m "added: git commands"
 git push -u origin master
 ```
+
+- 克隆项目
+
+```
+git clone git@github.com:Healingl/Leetcode-Python-Algorithm.git
+git add .
+git commit -m "added: git commands"
+git push -u origin master
+```
+
+
 
 - git常用命令
 
